@@ -9,7 +9,7 @@
     ],
     "license": "Apache-2.0",
     "keywords": ["Drupal", "AMP", "mobile"],
-    "homepage": "https://github.com/devdanpro/amp-converter",
+    "homepage": "https://github.com/Lullabot/amp-library",
     "require" : {
         "php" : ">=5.5.0",
         "querypath/QueryPath": ">=3.0.4",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "classmap": ["src/Spec/validator-generated.php"],
-        "psr-4": {"DevDanPro\\AMP\\": "src"}
+        "psr-4": {"Lullabot\\AMP\\": "src"}
     },
     "require-dev": {
         "php" : ">=5.5.0",
