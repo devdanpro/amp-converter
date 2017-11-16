@@ -1,5 +1,5 @@
 {
-    "name": "lullabot/amp",
+    "name": "devdanpro/amp-converter",
     "description": "A set of useful classes and utilities to convert html to AMP html (See https://www.ampproject.org/)",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "license": "Apache-2.0",
     "keywords": ["Drupal", "AMP", "mobile"],
-    "homepage": "https://github.com/Lullabot/amp-library",
+    "homepage": "https://github.com/devdanpro/amp-converter",
     "require" : {
         "php" : ">=5.5.0",
         "querypath/QueryPath": ">=3.0.4",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "classmap": ["src/Spec/validator-generated.php"],
-        "psr-4": {"Lullabot\\AMP\\": "src"}
+        "psr-4": {"AMP-Converter\\AMP\\": "src"}
     },
     "require-dev": {
         "php" : ">=5.5.0",
