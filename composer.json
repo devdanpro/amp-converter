@@ -21,7 +21,7 @@
     },
     "autoload": {
         "classmap": ["src/Spec/validator-generated.php"],
-        "psr-4": {"AMP-Converter\\AMP\\": "src"}
+        "psr-4": {"DevDanPro\\AMP\\": "src"}
     },
     "require-dev": {
         "php" : ">=5.5.0",
